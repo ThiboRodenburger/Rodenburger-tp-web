@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.button {
+    position: relative;
+    width: 40%;
+    height: 40%;
+    margin: 0 auto;
+}
+
+.b1 {
+    background-image: url("mage.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    width: 15%;
+    height: 40%;
+    left: 0;
+    padding: 150px;
+    margin : 60px;
+}
+
+.b2 {
+    background-image: url("plaine.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    width: 20%;
+    height: 40%;
+    left: 0;
+    padding: 180px;
+    margin : 70px;
+}
+
+.b3 {
+    background-image: url("école de magie.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    width: 20%;
+    height: 40%;
+    left: 0;
+    padding: 180px;
+    margin : 70px;
+}
+
+.b4 {
+    background-image: url("chateau.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    width: 20%;
+    height: 40%;
+    left: 0;
+    padding: 180px;
+    margin : 70px;
+}
+
+.b5 {
+    background-image: url("arene.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    width: 20%;
+    height: 40%;
+    left: 0;
+    padding: 160px;
+    margin : 70px;
+}
+
+.b6 {
+    background-image: url("slime.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    width: 20%;
+    height: 40%;
+    left: 0;
+    padding: 120px;
+    margin : 70px;
+}
+
+.b7 {
+    background-image: url("desert.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    width: 50%;
+    height: 40%;
+    left: 0;
+    padding: 120px;
+    margin : 80px;
+}
+
+.b8 {
+    background-image: url("glace.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    width: 50%;
+    height: 40%;
+    left: 0;
+    padding: 120px;
+    margin : 80px;
+}
+
+.b9 {
+    background-image: url("foudre.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    width: 50%;
+    height: 40%;
+    left: 0;
+    padding: 120px;
+    margin : 80px;
+}
+
+.b10 {
+    background-image: url("dragon.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    width: 50%;
+    height: 40%;
+    left: 0;
+    padding: 120px;
+    margin : 80px;
+}
+
+.bg-img {
+    background-image: url("vdépart.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding : 100px;
+    
+}
+
+.bg-img-2{
+    background-image: url("CV.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding : 100px;
+}
+
+.bg-img-3{
+    background-image: url("école de magie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding : 100px;
+    filter: blur(4px);
+}
+
+.bg-img-4{
+    background-image: url("plaine.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding : 100px;
+    filter: blur(4px);
+}
+
+.bg-img-5{
+    background-image: url("arene.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding : 100px;
+    filter: blur(4px);
+}
+
+.bg-img-6{
+    background-image: url("chateau.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding : 100px;
+    filter: blur(4px);
+}
+
+.bg-img-7{
+    background-image: url("sorciere.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding : 100px;
+    filter: blur(2px);
+}
+
+.bg-img-8{
+    background-image: url("desert.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding : 100px;
+    filter: blur(1px);
+}
+
+.bg-img-9{
+    background-image: url("dragon2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding : 100px;
+    filter: blur(3px);
+}
+
+.bg-img-10{
+    background-image: url("mort.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding : 100px;
+    filter: blur(3px);
+}
+
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: rgb(50, 197, 151);
+    font-weight: bold;
+    border: 3px solid rgb(214, 214, 214);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.bg-text2 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: rgb(50, 197, 151);
+    font-weight: bold;
+    border: 3px solid rgb(214, 214, 214);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 60px;
+    text-align: center;
+}
+
+.bg-text3 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: rgb(50, 197, 151);
+    font-weight: bold;
+    border: 3px solid rgb(214, 214, 214);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+}
+
+.ctn-btn{
+    display: flex;
+    justify-content: center;
+}
